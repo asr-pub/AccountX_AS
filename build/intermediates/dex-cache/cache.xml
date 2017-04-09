@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/libs/mpandroidchartlibrary-1-7-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c685e45ac6491e51640ce3571606ac22dfd4a6a3">
+        <dex dex="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-1-7-4_81add1978945bf5b5cfec6fdf08785e092699011.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_08c6c298f9c2c07a7eec29d4e54101b1343ba5ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_3a66c835a8343fe428730e924bf8a58dc62b583c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_380b466c2ce1674ea007d3466a3a9cf9e17ba243.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/zhengken/Downloads/github_nchu/AccountX_AS/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_358bd33ac12b2becc5fe25af2b26410f1f568ccf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Downloads/AccountX_AS/app/libs/mpandroidchartlibrary-1-7-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c685e45ac6491e51640ce3571606ac22dfd4a6a3">
+        <dex dex="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-1-7-4_ffd95fcd7467c7b5618462dab5ed3baeee6d71a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhengken/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/zhengken/Downloads/AccountX_AS/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_60e107ef14939ebcee81d9fb518d43acdab9efa1.jar" />
+    </item>
+
+</items>

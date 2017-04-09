@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.accountsoft"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/i2"
+        android:label="迈达斯的钱袋"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.accountsoft.activity.Login"
+            android:label="迈达斯的钱袋 " 
+            android:icon="@drawable/i2"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.FlagManage"
+            android:label="@string/title_activity_add__out_account" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.AddOutaccount"
+            android:label="@string/title_activity_add_outaccount" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.AddInaccount"
+            android:label="@string/title_activity_add_inaccount" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.Inaccountinfo"
+            android:label="@string/title_activity_" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.Outaccountinfo"
+            android:label="@string/title_activity_" >
+        </activity>
+        <activity android:name="com.accountsoft.activity.regist" >
+        </activity>
+        <activity android:name="com.accountsoft.activity.Accountflag" >
+        </activity>
+        <activity android:name="com.accountsoft.activity.Showinfo" >
+        </activity>
+        <activity android:name="com.accountsoft.activity.InfoManage" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.activity.myChart"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.WeekActivity"
+            android:label="@string/title_activity_week" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.Time"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity android:name="com.accountsoft.calculate.Daysaccount" >
+        </activity>
+        <activity
+            android:name="com.accountsoft.MyChart2"
+            android:label="@string/title_activity_my_chart2" >
+        </activity>
+    </application>
+
+</manifest>

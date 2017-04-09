@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/initem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="新增收入"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#839399"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvintime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtinMoney"
+        android:layout_marginTop="38dp"
+        android:text="时间" 
+        android:textSize="20sp" 
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvInMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="55dp"
+        android:text="金额" 
+         android:textSize="20sp" 
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:id="@+id/txtinMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvInMoney"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtintime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvintime"
+        android:layout_alignLeft="@+id/txtinMoney"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/tvintype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvintime"
+        android:layout_marginTop="41dp"
+        android:text="类别" 
+         android:textSize="20sp" 
+        android:layout_marginLeft="16dp"/>
+
+    <Spinner
+        android:id="@+id/spintype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtinmark"
+        android:layout_alignTop="@+id/tvintype"
+        android:entries="@array/intype" />
+
+    <TextView
+        android:id="@+id/tvinhandler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spintype"
+        android:layout_marginTop="38dp"
+        android:text="付款方" 
+         android:textSize="20sp" 
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:id="@+id/txtinhandler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvinhandler"
+        android:layout_alignBottom="@+id/tvinhandler"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtinmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtinhandler"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvinmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtinmark"
+        android:layout_alignParentLeft="true"
+        android:text="备注" 
+         android:textSize="20sp" 
+        android:layout_marginLeft="16dp"/>
+
+    <Button
+        android:id="@+id/btninsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tvinhandler"
+        android:text="保存" />
+
+    <Button
+        android:id="@+id/btnincancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtinmark"
+        android:layout_marginRight="34dp"
+        android:text="取消" />
+
+</RelativeLayout>
